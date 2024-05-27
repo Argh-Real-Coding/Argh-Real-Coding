@@ -1,0 +1,26 @@
+"""
+5/26/2024
+I'm learning about modules, I guess?
+
+Decided to use the random module to make a D&D stat sheet generator.
+"""
+
+import random, os
+
+input("Press Enter to generate stats for your character!")
+Done= False
+while not Done:
+    os.system('CLS')
+    Str= random.randint(1,20)
+    print("Strength:", Str)
+    Dex= random.randint(1,20)
+    print("Dexterity:", Dex)
+    Con= random.randint(1,20)
+    print("Constitution:", Con)
+    Intel= random.randint(1,20)
+    print("Intelligence:", Intel)
+    Wis= random.randint(1,20)
+    print("Wisdom:", Wis)
+    Rizz= random.randint(1,20)
+    print("Charisma:", Rizz)
+    Shuffled= input("Press enter to generate another stat sheet!")
